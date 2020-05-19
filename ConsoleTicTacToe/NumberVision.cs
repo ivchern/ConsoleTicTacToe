@@ -6,7 +6,7 @@ namespace ConsoleTicTacToe
 {
     class NumberVision
     {
-        public static Dictionary<int, dynamic> numPosition { get; } = new Dictionary<int, dynamic>(9);
+        public static Dictionary<int, char> numPosition  = new Dictionary<int, char>(9);
         public  void StreamInArray()//записываю в массив свободные числа
         {
 
