@@ -14,7 +14,6 @@ namespace ConsoleTicTacToe
                 if (NumberVision.numPosition[i] == sym && NumberVision.numPosition[i + 1] == sym && NumberVision.numPosition[i + 2] == sym)
                 {
                     return true;
-                    break;
                 }
             }
             return false;
